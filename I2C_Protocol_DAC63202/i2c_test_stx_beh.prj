@@ -1,0 +1,2 @@
+vhdl isim_temp "I2C_Protocol.vhd"
+vhdl isim_temp "i2c_test.vhd"

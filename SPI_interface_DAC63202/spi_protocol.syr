@@ -1,0 +1,558 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: spi_protocol.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "spi_protocol.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "spi_protocol"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-ftg256
+
+---- Source Options
+Top Module Name                    : spi_protocol
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\uni_master\course 1\VHDL\main project\SPI_interface_DAC63202\spi_protocol.vhd" into library work
+Parsing entity <spi_protocol>.
+INFO:HDLCompiler:1676 - "E:\uni_master\course 1\VHDL\main project\SPI_interface_DAC63202\spi_protocol.vhd" Line 18. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+Parsing architecture <Behavioral> of entity <spi_protocol>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <spi_protocol> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <spi_protocol>.
+    Related source file is "E:\uni_master\course 1\VHDL\main project\SPI_interface_DAC63202\spi_protocol.vhd".
+    Found 1-bit register for signal <start_bit_INT>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_7_q>.
+    Found 5-bit register for signal <bit_cnt>.
+    Found 1-bit register for signal <sync_n>.
+    Found 1-bit register for signal <sdo_en>.
+    Found 1-bit register for signal <cs_n>.
+    Found 1-bit register for signal <sclk_start>.
+    Found 1-bit register for signal <R_W>.
+    Found 24-bit register for signal <serial_data_in_INT>.
+    Found 3-bit register for signal <state>.
+    Found 24-bit register for signal <state[2]_dff_52_OUT>.
+    Found 24-bit register for signal <read_back_data_r>.
+    Found 1-bit register for signal <error_sig>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_41>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_42>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_43>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_44>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_45>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_46>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_47>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_48>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_49>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_50>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_51>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_52>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_53>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_54>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_55>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_56>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_57>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_58>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_59>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_60>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_61>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_62>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_63>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_64>.
+    Found 1-bit register for signal <state[2]_clk_sys_DFF_65>.
+    Found 5-bit register for signal <test_cnt>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 32                                             |
+    | Clock              | clk_sys (rising_edge)                          |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 5-bit adder for signal <test_cnt[4]_GND_6_o_add_3_OUT> created at line 68.
+    Found 5-bit subtractor for signal <GND_6_o_GND_6_o_sub_31_OUT<4:0>> created at line 1308.
+    Found 1-bit 24-to-1 multiplexer for signal <bit_cnt[4]_X_6_o_Mux_21_o> created at line 140.
+    Found 1-bit tristate buffer for signal <Mosi_line> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<23>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<22>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<21>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<20>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<19>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<18>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<17>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<16>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<15>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<14>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<13>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<12>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<11>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<10>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<9>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<8>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<7>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<6>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<5>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<4>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<3>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<2>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<1>> created at line 61
+    Found 1-bit tristate buffer for signal <read_back_data<0>> created at line 61
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 115 D-type flip-flop(s).
+	inferred 120 Multiplexer(s).
+	inferred  25 Tristate(s).
+	inferred   1 Finite State Machine(s).
+Unit <spi_protocol> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+# Registers                                            : 38
+ 1-bit register                                        : 33
+ 24-bit register                                       : 3
+ 5-bit register                                        : 2
+# Multiplexers                                         : 120
+ 1-bit 2-to-1 multiplexer                              : 113
+ 1-bit 24-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 6
+# Tristates                                            : 25
+ 1-bit tristate buffer                                 : 25
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <read_back_data_r_16> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_17> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_18> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_19> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_20> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_21> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_22> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_23> of sequential type is unconnected in block <spi_protocol>.
+
+Synthesizing (advanced) Unit <spi_protocol>.
+The following registers are absorbed into counter <test_cnt>: 1 register on signal <test_cnt>.
+Unit <spi_protocol> synthesized (advanced).
+WARNING:Xst:2677 - Node <state[2]_clk_sys_DFF_42> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <state[2]_clk_sys_DFF_45> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <state[2]_clk_sys_DFF_43> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <state[2]_clk_sys_DFF_44> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <state[2]_clk_sys_DFF_48> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <state[2]_clk_sys_DFF_46> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <state[2]_clk_sys_DFF_47> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <state[2]_clk_sys_DFF_49> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_16> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_17> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_18> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_19> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_20> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_21> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_22> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_r_23> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_16> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_17> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_18> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_19> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_20> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_21> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_22> of sequential type is unconnected in block <spi_protocol>.
+WARNING:Xst:2677 - Node <read_back_data_23> of sequential type is unconnected in block <spi_protocol>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 5-bit subtractor                                      : 1
+# Counters                                             : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 86
+ Flip-Flops                                            : 86
+# Multiplexers                                         : 88
+ 1-bit 2-to-1 multiplexer                              : 81
+ 1-bit 24-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 6
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state[1:3]> with user encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ idle         | 000
+ delay_inst   | 001
+ inst         | 010
+ write_st     | 011
+ read_command | 100
+ read_data    | 101
+ error_st     | 110
+ delay_cs     | 111
+--------------------------
+INFO:Xst:2261 - The FF/Latch <sync_n_INT> in Unit <spi_protocol> is equivalent to the following FF/Latch, which will be removed : <cs_n_INT> 
+WARNING:Xst:2042 - Unit spi_protocol: 17 internal tristates are replaced by logic (pull-up yes): N4, read_back_data<0>, read_back_data<10>, read_back_data<11>, read_back_data<12>, read_back_data<13>, read_back_data<14>, read_back_data<15>, read_back_data<1>, read_back_data<2>, read_back_data<3>, read_back_data<4>, read_back_data<5>, read_back_data<6>, read_back_data<7>, read_back_data<8>, read_back_data<9>.
+
+Optimizing unit <spi_protocol> ...
+WARNING:Xst:1293 - FF/Latch <error_sig> has a constant value of 0 in block <spi_protocol>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <state[2]_clk_sys_DFF_65> (without init value) has a constant value of 0 in block <spi_protocol>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <read_back_data_r_0> (without init value) has a constant value of 1 in block <spi_protocol>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <read_back_data_0> is unconnected in block <spi_protocol>.
+INFO:Xst:3203 - The FF/Latch <sclk_start> in Unit <spi_protocol> is the opposite to the following FF/Latch, which will be removed : <sync_n_INT> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block spi_protocol, actual ratio is 2.
+FlipFlop bit_cnt_0 has been replicated 1 time(s)
+FlipFlop bit_cnt_1 has been replicated 3 time(s)
+FlipFlop bit_cnt_2 has been replicated 3 time(s)
+FlipFlop bit_cnt_3 has been replicated 1 time(s)
+FlipFlop bit_cnt_4 has been replicated 2 time(s)
+FlipFlop state_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop state_FSM_FFd2 has been replicated 2 time(s)
+FlipFlop state_FSM_FFd3 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 102
+ Flip-Flops                                            : 102
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : spi_protocol.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 200
+#      GND                         : 1
+#      INV                         : 5
+#      LUT2                        : 15
+#      LUT3                        : 9
+#      LUT4                        : 9
+#      LUT5                        : 41
+#      LUT6                        : 105
+#      MUXF7                       : 14
+#      VCC                         : 1
+# FlipFlops/Latches                : 102
+#      FD                          : 40
+#      FDE                         : 57
+#      FDR                         : 5
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 54
+#      IBUF                        : 27
+#      OBUF                        : 26
+#      OBUFT                       : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9ftg256-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             102  out of  11440     0%  
+ Number of Slice LUTs:                  184  out of   5720     3%  
+    Number used as Logic:               184  out of   5720     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    196
+   Number with an unused Flip Flop:      94  out of    196    47%  
+   Number with an unused LUT:            12  out of    196     6%  
+   Number of fully used LUT-FF pairs:    90  out of    196    45%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                          54
+ Number of bonded IOBs:                  54  out of    186    29%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_sys                            | IBUF+BUFG              | 102   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.817ns (Maximum Frequency: 207.598MHz)
+   Minimum input arrival time before clock: 4.438ns
+   Maximum output required time after clock: 5.202ns
+   Maximum combinational path delay: 5.857ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_sys'
+  Clock period: 4.817ns (frequency: 207.598MHz)
+  Total number of paths / destination ports: 1394 / 163
+-------------------------------------------------------------------------
+Delay:               4.817ns (Levels of Logic = 4)
+  Source:            state_FSM_FFd3_1 (FF)
+  Destination:       state[2]_clk_sys_DFF_51 (FF)
+  Source Clock:      clk_sys rising
+  Destination Clock: clk_sys rising
+
+  Data Path: state_FSM_FFd3_1 to state[2]_clk_sys_DFF_51
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.525   0.954  state_FSM_FFd3_1 (state_FSM_FFd3_1)
+     LUT3:I0->O           17   0.235   1.664  Mmux_state[2]_GND_25_o_Mux_91_o1111 (Mmux_state[2]_GND_25_o_Mux_91_o11)
+     LUT6:I0->O            1   0.254   0.000  Mmux_state[2]_GND_37_o_Mux_115_o11_G (N121)
+     MUXF7:I1->O           1   0.175   0.682  Mmux_state[2]_GND_37_o_Mux_115_o11 (state[2]_GND_37_o_Mux_115_o)
+     LUT6:I5->O            1   0.254   0.000  state[2]_clk_sys_DFF_56_rstpot (state[2]_clk_sys_DFF_56_rstpot)
+     FD:D                      0.074          state[2]_clk_sys_DFF_56
+    ----------------------------------------
+    Total                      4.817ns (1.517ns logic, 3.300ns route)
+                                       (31.5% logic, 68.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_sys'
+  Total number of paths / destination ports: 41 / 40
+-------------------------------------------------------------------------
+Offset:              4.438ns (Levels of Logic = 3)
+  Source:            Miso_line (PAD)
+  Destination:       read_back_data_12 (FF)
+  Destination Clock: clk_sys rising
+
+  Data Path: Miso_line to read_back_data_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.328   1.637  Miso_line_IBUF (Miso_line_IBUF)
+     LUT6:I0->O            1   0.254   0.910  Mmux_read_back_data[12]_state[2]_MUX_160_o11_SW0 (N101)
+     LUT5:I2->O            1   0.235   0.000  Mmux_read_back_data[12]_state[2]_MUX_160_o11 (read_back_data[12]_state[2]_MUX_160_o)
+     FD:D                      0.074          read_back_data_12
+    ----------------------------------------
+    Total                      4.438ns (1.891ns logic, 2.547ns route)
+                                       (42.6% logic, 57.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_sys'
+  Total number of paths / destination ports: 26 / 25
+-------------------------------------------------------------------------
+Offset:              5.202ns (Levels of Logic = 2)
+  Source:            sclk_start (FF)
+  Destination:       sclk (PAD)
+  Source Clock:      clk_sys rising
+
+  Data Path: sclk_start to sclk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.525   0.834  sclk_start (sclk_start)
+     LUT2:I0->O            1   0.250   0.681  Mmux_sclk11 (sclk_OBUF)
+     OBUF:I->O                 2.912          sclk_OBUF (sclk)
+    ----------------------------------------
+    Total                      5.202ns (3.687ns logic, 1.515ns route)
+                                       (70.9% logic, 29.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               5.857ns (Levels of Logic = 3)
+  Source:            clk_sys (PAD)
+  Destination:       sclk (PAD)
+
+  Data Path: clk_sys to sclk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.682  clk_sys_IBUF (clk_sys_IBUF)
+     LUT2:I1->O            1   0.254   0.681  Mmux_sclk11 (sclk_OBUF)
+     OBUF:I->O                 2.912          sclk_OBUF (sclk)
+    ----------------------------------------
+    Total                      5.857ns (4.494ns logic, 1.363ns route)
+                                       (76.7% logic, 23.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk_sys
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_sys        |    4.817|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.23 secs
+ 
+--> 
+
+Total memory usage is 4504792 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   37 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

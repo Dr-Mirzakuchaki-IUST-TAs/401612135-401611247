@@ -1,0 +1,2 @@
+vhdl isim_temp "spi_protocol.vhd"
+vhdl isim_temp "SPI_test_read_mode.vhd"

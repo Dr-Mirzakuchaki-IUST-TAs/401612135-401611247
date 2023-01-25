@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_r_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_back_data_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">sync_n_INT</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;cs_n_INT&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">spi_protocol</arg>: <arg fmt="%d" index="2">17</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">error_sig</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">spi_protocol</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">state[2]_clk_sys_DFF_65</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">spi_protocol</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">read_back_data_r_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">spi_protocol</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">read_back_data_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">sclk_start</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spi_protocol</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sync_n_INT&gt; </arg>
+</msg>
+
+</messages>
+

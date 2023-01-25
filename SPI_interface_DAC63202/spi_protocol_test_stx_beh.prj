@@ -1,0 +1,2 @@
+vhdl isim_temp "spi_protocol.vhd"
+vhdl isim_temp "spi_protocol_test.vhd"
