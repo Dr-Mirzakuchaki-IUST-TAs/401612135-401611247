@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/surface/Desktop/New folder (11)/SPI_interface_DAC63202/SPI_test_read_mode_isim_beh.exe" -prj "C:/Users/surface/Desktop/New folder (11)/SPI_interface_DAC63202/SPI_test_read_mode_beh.prj" "work.SPI_test_read_mode" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/uni_master/course 1/VHDL/main project/I2C_Protocol_DAC63202/i2c_test_isim_beh.exe" -prj "E:/uni_master/course 1/VHDL/main project/I2C_Protocol_DAC63202/i2c_test_beh.prj" "work.i2c_test" 

@@ -1,0 +1,2 @@
+vhdl work "spi_protocol.vhd"
+vhdl work "SPI_test_read_mode.vhd"

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.xst" -ofn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.syr" 
+xst -intstyle ise -ifn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.xst" -ofn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.syr" 
+xst -intstyle ise -ifn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.xst" -ofn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.syr" 
+xst -intstyle ise -ifn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.xst" -ofn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.syr" 
+xst -intstyle ise -ifn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.xst" -ofn "E:/uni_master/course 1/VHDL/main project/SPI_interface_DAC63202/spi_mosi_3wire.syr" 
